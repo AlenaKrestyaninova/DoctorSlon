@@ -1,0 +1,60 @@
+.header {
+    text-align: center;
+}
+
+.header__background {
+    background: linear-gradient(153deg, rgba(2,0,36,1) 0%, rgba(57,136,161,1) 61%, rgba(71,180,195,1) 100%);
+    border-radius: 16px;
+    margin-top: 15px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 10%);
+}
+
+.header__content {
+    background-image: url(./../../images/toothpaste.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% 130px;
+    object-fit: cover;
+    color: #12395b;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__title {
+    margin: 0;
+    font-size: 26px;
+}
+
+.header__subtitle {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Медиа-запрос для мобилки (меньше 635px)*/
+@media all and (max-width:635px) {
+    .header__title {
+        font-size: 22px;
+    }
+}
+
+/* Медиа-запрос для мобилки (меньше 424px)*/
+@media all and (max-width:424px) {
+    .header__content {
+        background-image: url(./../../images/toothpaste\ small.svg);
+    }
+    .header__title {
+        font-size: 19px;
+    }
+    
+    .header__subtitle {
+        font-size: 13px;
+    }
+}

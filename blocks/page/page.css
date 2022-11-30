@@ -1,0 +1,20 @@
+.page {
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.5;
+    box-sizing: border-box;
+    max-width: 600px;
+    padding-top: 33px;
+}
+
+/* Медиа-запрос для мобилки (меньше 635px)*/
+@media all and (max-width:635px) {
+    .page {
+        max-width: 100%;
+        padding: 33px 18px 0;
+    }
+}

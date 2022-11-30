@@ -1,0 +1,27 @@
+.encyclopedia__title {
+    margin: 0;
+    color: #12395b;
+    line-height: 1.3;
+}
+
+.encyclopedia__text {
+    margin-bottom: 0;
+}
+
+.encyclopedia__link {
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s ease;
+    color: #12395b;
+    text-decoration: none;
+    border-bottom: 1px dashed #12395b;
+    white-space: nowrap;
+}
+
+.encyclopedia__link:hover {
+    font-weight: 700;
+    color: white;
+    background: rgb(25,55,75);
+    background: linear-gradient(283deg, rgba(25,55,75,1) 44%, rgba(53,134,159,1) 100%);
+    border-radius: 5px;
+}

@@ -1,0 +1,8 @@
+.thanks {
+    background: rgb(57,136,161);
+    background: linear-gradient(339deg, rgba(57,136,161,1) 0%, rgba(189,250,228,1) 50%);
+}
+
+.thanks__text {
+    margin: 0;
+}

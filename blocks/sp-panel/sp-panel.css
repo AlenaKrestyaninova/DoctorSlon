@@ -1,0 +1,12 @@
+.sp-panel {
+    background-color: white;
+    padding: 18px;
+    min-height: 28px;
+}
+
+.sp-panel__text {
+    font-size: 19px;
+    line-height: 26px;
+    margin: 0;
+    font-weight: 400;
+}
